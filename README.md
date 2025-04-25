@@ -79,5 +79,24 @@ your-repo/
 
 ### 5. Access the PostgreSQL databse 
 
-````bash
+**Option 1: Terminal (psql)** 
+
+```bash
 docker exec -it postgres-service psql -U postgres -d tasks_db
+
+```
+
+**Option 2: Use a GUI (pgAdmin, DBeaver)**
+
+- Host: localhost
+
+- Username: postgres
+
+- Password: (set in docker-compose.yml)
+
+- Database: tasks_db
+
+Unless specified otherwise on docker-compose.yml, the default port for psql is 
+- Port: 5432
+
+
