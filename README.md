@@ -1,6 +1,6 @@
 # 🧠 Task Manager App with Smart Suggestions
 
-This full-stack task manager lets you create, categorize, and manage your tasks. It uses a Python service to suggest categories for tasks based on content indicated by different color background, and stores everything in a PostgreSQL database. All components are containerized using Docker.
+This **full-stack** task manager lets you create, categorize, and manage your tasks. It uses a *Python* service to suggest categories for tasks based on content indicated by different color background, and stores everything in a PostgreSQL database. All components are containerized using **Docker**.
 
 ---
 
